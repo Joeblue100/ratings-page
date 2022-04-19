@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.container{
+    margin-top: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.container img{
+    padding-left: 5px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;  
+}
+.container .ratingbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container .ratingbuttons .button1{
+    color: black;
+    border-radius: 50%;
+}
+.container .ratingbuttons .button2{
+    color: black;
+    border-radius: 50%;
+}
+.container .ratingbuttons .button3{
+    color: black;
+    border-radius: 50%;
+}
+.container .ratingbuttons .button4{
+    color: black;
+    border-radius: 50%;
+}
+.container .ratingbuttons .button5{
+    color: black;
+    border-radius: 50%;
+}
+.container .submitbutton a{
+    text-decoration: none;
+    color: black;
+    
+}
+.container .submitbutton{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: brown;
+    border-radius: 10px;   
+}
+@media(max-width:600px) {
+    .container img{
+        text-align: center;
+        width: 100%;
+    }
+}

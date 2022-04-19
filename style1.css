@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: mediumslateblue;
+    font-style: italic;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+@media(max-width:600px) {
+    body{
+        text-align: center;
+    }
+}
